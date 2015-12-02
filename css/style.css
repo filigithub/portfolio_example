@@ -1,0 +1,68 @@
+/*con dv indico i contenuti di daniele votta*/
+
+ body {
+  margin:0;
+ }
+ header {
+  background-color: #151515;
+  background: linear-gradient(#9f9fff,transparent 20%),
+              linear-gradient(0deg,#ccccff, transparent),
+  #ffa949 url('../img/hdbackgrounds-03.jpg') no-repeat center;
+ 
+  background-size: cover;
+  height: 805px;
+  width:100%;
+  padding:15px;
+  position:fixed; /*(dv)*/
+  top:0;   /*dv   top eliminate the white top space*/
+ }
+ .main-wrapper {
+  width: 940px;
+ }
+ .main-nav {
+ /* background:white;*/
+  float:right;
+ }
+ .main-nav li{
+  float:left;
+ }
+ .main-nav li{
+  margin: 20px 35px 0 30px;
+ }
+ .main-nav a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 10px;
+ }
+ 
+ 
+ 
+/****************************
+PAGE:  PORTFOLIO
+*****************************/
+.portfolio_gallery{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.portfolio_gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: white;
+  color: black;
+}
+ img {
+  max-width:  100%; 
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
